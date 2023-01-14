@@ -50,9 +50,22 @@ nav ul li a:hover {
     transition: 0.3;
 }
 
+
 .content{
     margin-top: relative;
     text-align: center;
+}
+
+.content img{
+    width: 75%;
+    height: 75%;
+}
+
+.content1 p{
+    margin-top: 45px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
 }
 
 
@@ -167,6 +180,12 @@ color: transparent;
     z-index: -1;
 }
 
+.abta24{
+    width: 35%;
+    height: 35%;
+    position: center;
+}
+
 .bgabout {
     width: 100%;
     height: 100vh;
@@ -176,11 +195,6 @@ color: transparent;
     z-index: -1;
 }
 
-.abta24{
-    width: 35%;
-    height: 35%;
-    position: center;
-}
 
 .bgmovie {
     width: 100%;
@@ -257,6 +271,7 @@ section{
 .hometrailer1{
     background-color:rgba(240, 226, 102, 0.916);
     padding: 10px 20px;
+    display: auto;
     text-align: center;
     font-size: 27px;
 }
@@ -266,8 +281,9 @@ section{
 }
 
 .hometrailer2{
-    background-color:rgba(188, 156, 129, 0.836);
-    display: flex;
+    background-color:rgba(230, 191, 160, 0.836);
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -278,8 +294,9 @@ section{
 }
 
 .hometrailer3{
-    background-color:rgba(186, 141, 104, 0.974);
-    display: flex;
+    background-color:rgba(206, 126, 34, 0.767);
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -389,10 +406,10 @@ section{
 /*aboutme*/
 .aboutme{
     background-color:rgba(24, 35, 54, 0.985);
-    display: flex;
     padding: 10px 20px;
-    font-size: 27px;
-    align-items: center;
+    font-size: 22px;
+    display: auto;
+    text-align: center;
     color: #fff;
 }
 .aboutme img{
@@ -409,7 +426,8 @@ section{
 /*trailerfilm*/
 .filmtrailer1{
     background-color:rgba(187, 59, 59, 0.867);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -421,7 +439,8 @@ section{
 
 .filmtrailer2{
     background-color:rgba(216, 138, 69, 0.833);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -433,7 +452,8 @@ section{
 
 .filmtrailer3{
     background-color:rgba(19, 66, 81, 0.734);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -444,8 +464,9 @@ section{
 }
 
 .filmtrailer4{
-    background-color:rgba(33, 108, 19, 0.837);
-    display: flex;
+    background-color:rgba(30, 87, 21, 0.837);
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -454,23 +475,11 @@ section{
 .filmt4{
     padding: 0px 20px;
 }
-
-.filmtrailer4{
-    background-color:rgba(33, 98, 21, 0.692);
-    display: flex;
-    padding: 10px 20px;
-    align-items: left;
-    font-size: 27px;
-}
-
-.filmt4{
-    padding: 0px 20px;
-}   
-
-
+  
 .filmtrailer5{
     background-color:rgba(186, 156, 196, 0.81);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -482,7 +491,8 @@ section{
 
 .filmtrailer6{
     background-color:rgba(92, 168, 112, 0.868);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -494,7 +504,8 @@ section{
 
 .filmtrailer7{
     background-color:rgba(236, 210, 96, 0.868);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -506,7 +517,8 @@ section{
 
 .filmtrailer8{
     background-color:rgba(137, 181, 175, 0.868);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -518,7 +530,8 @@ section{
 
 .filmtrailer9{
     background-color:rgba(184, 147, 111, 0.868);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -530,7 +543,8 @@ section{
 
 .filmtrailer10{
     background-color:rgba(151, 147, 143, 0.868);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -543,8 +557,8 @@ section{
 /*trailertv*/
 .tvtrailer1{
     background-color:rgba(92, 240, 134, 0.867);
-    display: flex;
-    padding: 10px 20px;
+    display: auto;
+    text-align: center;
     align-items: left;
     font-size: 27px;
 }
@@ -555,7 +569,8 @@ section{
 
 .tvtrailer2{
     background-color:rgba(220, 189, 229, 0.867);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -566,8 +581,9 @@ section{
 }
 
 .tvtrailer3{
-    background-color:rgba(133, 90, 67, 0.859);
-    display: flex;
+    background-color:rgba(159, 120, 95, 0.634);
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -578,8 +594,9 @@ section{
 }
 
 .tvtrailer4{
-    background-color:rgba(212, 130, 86, 0.867);
-    display: flex;
+    background-color:rgba(235, 141, 90, 0.697);
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -591,7 +608,8 @@ section{
 
 .tvtrailer5{
     background-color:rgba(136, 153, 221, 0.867);
-    display: flex;
+    display: auto;
+    text-align: center;
     padding: 10px 20px;
     align-items: left;
     font-size: 27px;
@@ -600,85 +618,7 @@ section{
 .tvt5{
     padding: 0px 20px;
 }
-/*podcastnewest*/
-.podcast1{
-    display: flex;
-    padding: 10px 20px;
-    font-size: 27px;
-    width: 10%;
-    height: 50vh;
-}
 
-.pod1{
-    padding: 0px 300px;
-}
-
-.podcast1 img{
-transition: transform .2s;
-}
-
-.podcast1 img:hover{
-    transform: scale(1.090);
-}
-
-.podcast2{
-    display: flex;
-    padding: 10px 320px;
-    font-size: 27px;
-    width: 10%;
-    height: 50vh;
-}
-
-.pod2{
-    padding: 0px 30px;
-}
-
-.podcast2 img{
-    transition: transform .2s;
-    }
-    
-.podcast2 img:hover{
-    transform: scale(1.090);
-}
-    
-
-.podcast3{
-    display: flex;
-    padding: 10px 20px;
-    font-size: 27px;
-    width: 10%;
-    height: 50vh;
-}
-
-.pod3   {
-    padding: 0px 300px;
-}
-
-.podcast4{
-    display: flex;
-    padding: 10px 320px;
-    font-size: 27px;
-    width: 10%;
-    height: 50vh;
-
-}
-
-.pod4{
-    padding: 0px 30px;
-}
-
-.podcast5{
-    display: flex;
-    padding: 10px 20px;
-    font-size: 27px;
-    width: 10%;
-    height: 50vh;
-    margin: 10px;
-}
-
-.pod5{
-    padding: 0px 300px;
-}
 /*underline link a */
 h6 a{
     text-decoration: none;
