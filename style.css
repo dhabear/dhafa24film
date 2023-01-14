@@ -50,6 +50,10 @@ nav ul li a:hover {
     transition: 0.3;
 }
 
+.navbar .logoabout {
+    width: auto;   
+    height: auto;
+}
 
 .content{
     margin-top: relative;
