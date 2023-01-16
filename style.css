@@ -35,13 +35,13 @@ nav .logo{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
